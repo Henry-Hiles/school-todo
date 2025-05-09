@@ -1,7 +1,12 @@
 [project]
 name = "todo"
-version = "0.1.0"
-description = "Add your description here"
+version = "1.0.0"
+description = "A to-do python app for school"
+authors = [
+    {name = "Henry-Hiles", email = "henry@henryhiles.com"}
+]
 readme = "README.md"
-requires-python = ">=3.12"
-dependencies = []
+requires-python = ">=3.12,<4.0.0"
+dependencies = [
+    "textual"
+]
